@@ -4,7 +4,7 @@ namespace SOLID
 {
     public class SalaryCalculator
     {
-        //  The Context
+        //  The Context, injecting (D.I.) any object of type ISalaryCalculator in the constructor, or any class the implements ISalaryCalculator interface
         private ISalaryCalculator _calculator;
     
         public SalaryCalculator(ISalaryCalculator calculator)
