@@ -4,6 +4,7 @@ namespace SOLID
 {
     public class SalaryCalculator
     {
+        //  The Context
         private ISalaryCalculator _calculator;
     
         public SalaryCalculator(ISalaryCalculator calculator)
